@@ -38,10 +38,7 @@
     <script>
       window.$docsify = {
         alias: {
-          //'/.*/README.md': 'https://raw.githubusercontent.com/soyabn9/fmcs-help/master/README.md',
           '.*?/_coverpage.md': 'https://raw.githubusercontent.com/soyabn9/fmcs-help/master/_coverpage.md',
-          //'.*?/markdown.md': 'https://raw.githubusercontent.com/soyabn9/fmcs-help/master/markdown.md',
-          //'/.*/_sidebar.md': 'https://raw.githubusercontent.com/soyabn9/fmcs-help/master/_sidebar.md',
           "/.*/_navbar.md": "/_navbar.md",
           "/en/(.*)":
             "https://raw.githubusercontent.com/soyabn9/fmcs-help-en/master/$1"
@@ -101,25 +98,19 @@
         },
         formatUpdated: "{HH}:{mm}:{ss} {DD}/{MM}/{YYYY}",
         plugins: [
-          function(hook, vm) {
-            hook.beforeEach(function(html) {
-              if (/githubusercontent\.com/.test(vm.route.file)) {
-                url = vm.route.file
-                  .replace("raw.githubusercontent.com", "github.com")
-                  .replace(/\/master/, "/edit/master");
-              } else {
-                return (
-                html +
-                '\n----\n' +
-                'Last modified {docsify-updated}'
-              );
-              }
-              var editHtml = "[:memo: Edit Document](" + url + ")\n";
-              return (
-                editHtml +
-                html +
-                '\n----\n' +
-                'Last modified {docsify-updated}'
+          function (hook, vm) {
+          hook.beforeEach(function (html) {
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/edit/master')
+            } else {
+              url = 'https://github.com/soyabn9/fmcs-help/edit/master/docs/' + vm.route.file
+            }
+            var editHtml = '[:memo: Edit Document](' + url + ')\n'
+
+            return (
+                editHtml + html
               );
             });
           }
