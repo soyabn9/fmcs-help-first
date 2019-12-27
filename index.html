@@ -45,12 +45,6 @@
           "/.*/_navbar.md": "/_navbar.md",
           "/en/(.*)":
             "https://raw.githubusercontent.com/soyabn9/fmcs-help-en/master/$1"
-          //"/ar/(.*)":
-          //  "https://raw.githubusercontent.com/soyabn9/fmcs-help-ar/master/$1",
-          //"/pt/(.*)":
-          //  "https://raw.githubusercontent.com/soyabn9/fmcs-help-pt/master/$1",
-          //"/es/(.*)":
-          //  "https://raw.githubusercontent.com/soyabn9/fmcs-help-es/master/$1"
         },
         auto2top: true,
         coverpage: true,
@@ -66,17 +60,11 @@
         //themeColor: '#65FF00',
         search: {
           noData: {
-            //"/ar/": "No Results!",
-            //"/pt/": "No Results!",
-            //"/es/": "No Results!",
             "/en/": "No Results!",
             "/": "No Results!"
           },
           paths: "auto",
           placeholder: {
-            //"/ar/": "Search",
-            //"/pt/": "Search",
-            //"/es/": "Search",
             "/en/": "Search",
             "/": "Search"
           }
@@ -84,45 +72,30 @@
         "flexible-alerts": {
           note: {
             label: {
-              //"/es/": "Info",
-              //"/pt/": "Info",
-              //"/ar/": "Info",
               "/en/": "Info",
               "/": "Info"
             }
           },
           tip: {
             label: {
-              //"/es/": "Success",
-              //"/pt/": "Success",
-              //"/ar/": "Success",
               "/en/": "Success",
               "/": "Success"
             }
           },
           warning: {
             label: {
-              //"/es/": "Warning",
-              //"/pt/": "Warning",
-              //"/ar/": "Warning",
               "/en/": "Warning",
               "/": "Warning"
             }
           },
           danger: {
             label: {
-              //"/es/": "Danger",
-              //"/pt/": "Danger",
-              //"/ar/": "Danger",
               "/en/": "Danger",
               "/": "Danger"
             }
           }
         },
         notFoundPage: {
-          //"/es/": true,
-          //"/pt/": true,
-          //"/ar/": true,
           "/en/": true,
           "/": true
         },
@@ -135,10 +108,19 @@
                   .replace("raw.githubusercontent.com", "github.com")
                   .replace(/\/master/, "/edit/master");
               } else {
-                return;
+                return (
+                html +
+                '\n----\n' +
+                'Last modified {docsify-updated}'
+              );
               }
               var editHtml = "[:memo: Edit Document](" + url + ")\n";
-              return editHtml + html + "\n\n----\n\n";
+              return (
+                editHtml +
+                html +
+                '\n----\n' +
+                'Last modified {docsify-updated}'
+              );
             });
           }
         ]
