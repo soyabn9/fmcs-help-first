@@ -1,0 +1,19 @@
+# Site Builder FAQ
+
+> [!DANGER]
+> THE SITE IS IN ALPHA STAGES AND NOTHING IS FULLY FINAL. IT MAY GET DELETED.
+
+## How to create a site?
+
+Please refer to [https://forum.freemcserver.net/index.php?threads/how-to-create-a-website.238/](https://forum.freemcserver.net/index.php?threads/how-to-create-a-website.238/).
+
+## How do I change the template?
+
+On the admin dashboard go to `Apppearance > Themes` on the side menu and you will see a list of the current themes. By clicking a theme and clicking `Activate` your website will be changed to that theme. You can also have a live preview of how the theme looks like before you confirm the change, by clicking `Live Preview`.
+
+> [!NOTE]
+> You will not be able to add your own themes to the site.
+
+## How to change the site language?
+
+To change the overall site language, it would have to be installed first by the Network Admin (Facha). Currently the only installed language is `English (United States)`.
