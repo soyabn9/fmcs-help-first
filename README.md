@@ -7,7 +7,3 @@ This page will help you copy the existing repositories in either languages from 
 ## Editing
 
 ## Publishing
-
-------------
-
-Last Modified: 18:33 27/12/2019
