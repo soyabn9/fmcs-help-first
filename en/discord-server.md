@@ -55,14 +55,7 @@ Console Log Link:
 
 **Example:**
 
-<!---
-```
-Server Jar: MCPE/Bedrock - Nukkit
-Server Version: 411
-Minecraft Version: 1.11 (BE)
-Console Log Link: https://gist.github.com/soyabn9/1b3b2f8a91976208061d58a28a8f0566
-```
---->
+![Server Crashed Example](https://media.discordapp.net/attachments/660548659431342099/660549330146557975/unknown.png?)
 
 **Server JAR:**
 
@@ -77,6 +70,21 @@ Console Log Link: https://gist.github.com/soyabn9/1b3b2f8a91976208061d58a28a8f05
 **Minecraft Version** - In brackets, write either JE (Java Edition) or BE (Bedrock Edition)
 
 **Console Log Link** - Use [PasteBin](https://pastebin.com/) or [GitHub Gist](https://gist.github.com/)
+
+<!--
+### Server Not Starting
+
+```
+Server Jar:
+Server Version:
+Minecraft Version:
+Console Log Link:
+Server Type:
+Plugins:
+```
+
+**Example:**
+-->
 
 ## Server Advertising Rules
 
