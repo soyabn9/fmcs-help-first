@@ -3,6 +3,13 @@
 > [!NOTE]
 > This is an official help page but if you want proper help from our support staff please go to our Discord support server \([FreeMcServer.net](https://discordapp.com/invite/u99dDtE)\).
 
+## Why do I get an adblocker message when I don't have an adblocker?
+
+You might not have an adblocker (or you do, double check), but something is blocking ads. It might be your browser or it can be DNS (Domain Name System) or ISP (Internet Service Provider) level.
+
+> [!NOTE]
+> We cannot help you any further than this.
+
 ## Is the server free forever?
 
 Yes, You are able to get the server for free.
@@ -92,8 +99,6 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 To upload a world, drag the world folder from where it is located on your local files area to the server files area you see when using Filezilla. A guide on how to get and use it is [here](en/#how-to-get-and-use-the-recommended-ftp-client.md). The last step is to choose the world to be used by renaming the world textbox under Service Information on the home page of the control panel to the world folder uploaded and then restart the server. A video on how to upload your world to your server is [here](https://youtu.be/OxsWxDtcXkg).
 
 ## How can I upload a plugin?
-
-To upload a plugin, drag a plugin from where it is located on your local files area to the plugin folder on the server files area you see when using the recommended FTP client. A guide on on how to get and use it is [here](en/#how-to-get-and-use-the-recommended-ftp-client.md). The last step is to restart the server.
 
 To upload a plugin drag a plugin from where it is located on your local files area to the server files area you see when using Filezilla. A guide on how to get it and use it is [here](en/#how-to-get-and-use-the-recommended-ftp-client.md). The last step is to restart the server. A video on how to upload plugins to your server is [here](https://youtu.be/QRldgu51qJg).
 
