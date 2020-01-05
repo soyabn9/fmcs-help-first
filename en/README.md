@@ -5,7 +5,7 @@
 
 ## Why do I get an adblocker message when I don't have an adblocker or I turned off adblocker?
 
-You might not have an adblocker (or you do, double check), but something is stoping ads from coming onto the page (it may not be a blocker at all). It might be your browser or it can be DNS (Domain Name System) or ISP (Internet Service Provider) level.
+You might not have an adblocker (or you do, double check), but something is blocking ads from coming onto the page. It might be your browser or it can be DNS (Domain Name System) or ISP (Internet Service Provider) level.
 
 > [!NOTE]
 > If this did not help you, please read \[this](https://help.getadblock.com/support/solutions/articles/6000161397-a-site-still-asks-me-to-turn-off-adblock-although-it-s-whitelisted-or-adblock-is-paused)\.
