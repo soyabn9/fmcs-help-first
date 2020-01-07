@@ -3,12 +3,12 @@
 > [!NOTE]
 > This is an official help page but if you want proper help from our support staff please go to our Discord support server \([FreeMcServer.net](https://discordapp.com/invite/u99dDtE)\).
 
-## Why do I get an adblocker message when I don't have an adblocker?
+## Why do I get an adblocker message when I don't have an adblocker or I turned off adblocker?
 
-You might not have an adblocker (or you do, double check), but something is blocking ads. It might be your browser or it can be DNS (Domain Name System) or ISP (Internet Service Provider) level.
+You might not have an adblocker (or you do, double check), but something is blocking ads from coming onto the page. It might be your browser or it can be DNS (Domain Name System) or ISP (Internet Service Provider) level.
 
 > [!NOTE]
-> We cannot help you any further than this.
+> If this did not help you, please read \[this](https://help.getadblock.com/support/solutions/articles/6000161397-a-site-still-asks-me-to-turn-off-adblock-although-it-s-whitelisted-or-adblock-is-paused)\.
 
 ## Is the server free forever?
 
