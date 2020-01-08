@@ -8,7 +8,7 @@
 You might not have an adblocker (or you do, double check), but something is blocking ads from coming onto the page. It might be your browser or it can be DNS (Domain Name System) or ISP (Internet Service Provider) level.
 
 > [!NOTE]
-> If this did not help you, please read \[this](https://help.getadblock.com/support/solutions/articles/6000161397-a-site-still-asks-me-to-turn-off-adblock-although-it-s-whitelisted-or-adblock-is-paused)\.
+> If this did not help you, please read [this](https://help.getadblock.com/support/solutions/articles/6000161397-a-site-still-asks-me-to-turn-off-adblock-although-it-s-whitelisted-or-adblock-is-paused).
 
 ## Is the server free forever?
 
