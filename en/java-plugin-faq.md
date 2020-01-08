@@ -36,3 +36,5 @@ As soon as [Facha](https://www.spigotmc.org/members/esquilo_azul.19239/) \(Owner
 
 > [!NOTE]
 > SERVER-IP can either be the IP shown in console \(Example: `136.243.71.281`\) or the Node DNS of your server \(Example: `helios.freemcserver.net`\).
+> 
+> DynMap is best used with a MySQL database as it can load faster. A guide will come soon.
