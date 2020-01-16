@@ -29,9 +29,11 @@ As soon as [Facha](https://www.spigotmc.org/members/esquilo_azul.19239/) \(Owner
 4. Replace [this](https://cdn.discordapp.com/attachments/586568892810526720/647837234216828941/configuration.txt) configuration file with the existing one
 5. Find and replace `webserver-port` number to a range between `50000 - 51000`
 6. Start the server and locate the following in the console:
+
 ```text
 15.11 16:59:53 [Server] INFO [16:59:53 INFO]: [dynmap] Web server started on address SERVER-IP:WEBSERVER-PORT
 ```
+
 7. Go to `SERVER-IP:WEBSERVER-PORT` in a new tab, replacing `SERVER-IP` with your own server IP and `WEBSERVER-PORT` with the number you chose in the config file
 
 > [!NOTE]
