@@ -107,7 +107,17 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 
 ### FTP Errors:
 
+**Password Error:**
 
+The password cannot have a space before and/or after the password or it will return the following error.
+
+![FTP Error 1](../_images/fmcs-help-faq/FTP-Error-1.png 'Remove spaces from password')
+
+**Connect Error:**
+
+The server cannot be expired or suspended or it will return the following error.
+
+![FTP Error 2](../_images/fmcs-help-faq/FTP-Error-2.png 'Check if service status is active')
 
 > [!NOTE]
 > While WebFTP is available, it is not recommended as it is not developed by freemcserver.net staff and may have some bugs and is quite unstable.
