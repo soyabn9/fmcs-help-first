@@ -89,7 +89,25 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 
 1. Download Filezilla Client [here](https://filezilla-project.org/download.php?type=client)
 2. Go to the FTP access on the left side of the control panel
-3. Follow the perfect guide [here](https://forum.freemcserver.net/index.php?threads/connect-via-filezilla.6/)
+
+![FTP Access](../_images/fmcs-help-faq/FTP-Access.png 'Go to FTP Access')
+
+3. Find the following: 
+
+  - FTP Server IP: helios.freemcserver.net
+  - FTP Server PORT: 21 (Not needed as FileZilla uses port 21 as default)
+  - FTP Username: example@domain.com.156366 (Number is different for every server)
+  - FTP Password: RandomlyGeneratedNumbersAndLetters
+  
+![FTP Details](../_images/fmcs-help-faq/FTP-Details.png 'Find FTP Details')
+
+4. Copy over each information from the FTP Details into their correct boxes. On the left side are your **Local Files** and on the right are your **Server Files**.
+
+![FTP Connect](../_images/fmcs-help-faq/FTP-Connect.png 'Connect via FTP')
+
+### FTP Errors:
+
+
 
 > [!NOTE]
 > While WebFTP is available, it is not recommended as it is not developed by freemcserver.net staff and may have some bugs and is quite unstable.
