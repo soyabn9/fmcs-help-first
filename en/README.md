@@ -117,8 +117,6 @@ The password cannot have a space before and/or after the password or it will ret
 
 The server cannot be expired or suspended or it will return the following error.
 
-![FTP Error 2](../_images/fmcs-help-faq/FTP-Error-2.png 'Check if service status is active')
-
 > [!NOTE]
 > While WebFTP is available, it is not recommended as it is not developed by freemcserver.net staff and may have some bugs and is quite unstable.
 
