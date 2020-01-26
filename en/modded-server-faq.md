@@ -20,7 +20,7 @@ Follow the guide below to create a modded server:
 
 5. Once the installer has finished, before you go uploading the files and folders, rename the `forge-universal.jar` file to `custom.jar` or **IT WILL NOT WORK**.
 
-6. Now upload the `custom.jar`, `minecraft_server.jar` and `libraries` folder to the `JAR` folder using Filezilla **NOT** WebFTP as it does not allow the uploading of folders. A guide on how to get and use Filezilla is [here](en/#how-to-get-and-use-the-recommended-ftp-client).
+6. Now upload the `custom.jar`, `minecraft_server.jar` and `libraries` folder to the `jar` folder using Filezilla **NOT** WebFTP as it does not allow the uploading of folders. A guide on how to get and use Filezilla is [here](en/#how-to-get-and-use-the-recommended-ftp-client).
 
 7. Restart the server and now you're done!
 
