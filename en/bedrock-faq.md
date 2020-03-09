@@ -12,7 +12,7 @@ If you are getting the client outdated error when joining a server, it means tha
 
 ## What is the latest Nukkit Version that relates to the latest MCBE version?
 
-Latest Nukkit version (588) which is MCBE version (1.14) is available on [freemcserver.net](https://freemcserver.net/).
+Latest Nukkit version (617) which is MCBE version (1.14) is available on [freemcserver.net](https://freemcserver.net/).
 
 ## My nukkit server does not start?
 
