@@ -90,7 +90,7 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 1. Download Filezilla Client [here](https://filezilla-project.org/download.php?type=client)
 2. Go to the FTP access on the left side of the control panel
 
-![FTP Access](../_images/fmcs-help-faq/FTP-Access.png 'Go to FTP Access')
+![FTP Access](../assets/fmcs-help-faq/FTP-Access.png 'Go to FTP Access')
 
 3. Find the following: 
 
@@ -99,11 +99,11 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
   - FTP Username: example@domain.com.156366 (Number is different for every server)
   - FTP Password: RandomlyGeneratedNumbersAndLetters
   
-![FTP Details](../_images/fmcs-help-faq/FTP-Details.png 'Find FTP Details')
+![FTP Details](../assets/fmcs-help-faq/FTP-Details.png 'Find FTP Details')
 
 4. Copy over each information from the FTP Details into their correct boxes. On the left side are your **Local Files** and on the right are your **Server Files**.
 
-![FTP Connect](../_images/fmcs-help-faq/FTP-Connect.png 'Connect via FTP')
+![FTP Connect](../assets/fmcs-help-faq/FTP-Connect.png 'Connect via FTP')
 
 ### FTP Errors:
 
@@ -111,13 +111,13 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 
 The password cannot have a space before and/or after the password or it will return the following error.
 
-![FTP Error 1](../_images/fmcs-help-faq/FTP-Error-1.png 'Remove spaces from password')
+![FTP Error 1](../assets/fmcs-help-faq/FTP-Error-1.png 'Remove spaces from password')
 
 **Connect Error:**
 
 The server cannot be expired or suspended or it will return the following error.
 
-![FTP Error 2](../_images/fmcs-help-faq/FTP-Error-2.png 'Check if service status is active')
+![FTP Error 2](../assets/fmcs-help-faq/FTP-Error-2.png 'Check if service status is active')
 
 > [!NOTE]
 > While WebFTP is available, it is not recommended as it is not developed by freemcserver.net staff and may have some bugs and is quite unstable.

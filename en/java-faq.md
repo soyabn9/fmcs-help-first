@@ -47,25 +47,25 @@ If this does not work try to see if it is set to false in the server.properties 
 
 Get yourself a free domain from [https://freenom.com/](https://freenom.com/). *\"fmcshelptutorial.tk\" is just an example. Instead of it type in whatever you want your IP to be.*
 
-![Freenom 1](../_images/custom-ip/Freenom-1.png 'Choose your domain')
+![Freenom 1](../assets/custom-ip/Freenom-1.png 'Choose your domain')
 
 ### Step 2:
 
 Change the duration of the domain from `3 Months` to `12 Months`.
 
-![Freenom 2](../_images/custom-ip/Freenom-2.png 'Change the duration')
+![Freenom 2](../assets/custom-ip/Freenom-2.png 'Change the duration')
 
 ### Step 3:
 
 Enter your email address and click `Verify My Email Address`.
 
-![Freenom 3](../_images/custom-ip/Freenom-3.png 'Create an account')
+![Freenom 3](../assets/custom-ip/Freenom-3.png 'Create an account')
 
 ### Step 4:
 
 Open your email inbox in a new tab and open the email sent by Freenom. *If you don't see it, make sure to check "Spam" folder*. Click on the link to verify your email address.
 
-![Freenom 4](../_images/custom-ip/Freenom-4.png 'Verify your account')
+![Freenom 4](../assets/custom-ip/Freenom-4.png 'Verify your account')
 
 ### Step 5:
 
@@ -79,31 +79,31 @@ Go to [https://cloudflare.com/](https://cloudflare.com/). Click `Sign up` button
 
 Click the `Add Site` button found on the home page.
 
-![Cloudflare 1](../_images/custom-ip/Cloudflare-1.png 'Click the Add Site buttton')
+![Cloudflare 1](../assets/custom-ip/Cloudflare-1.png 'Click the Add Site buttton')
 
 ### Step 8:
 
 Replace `fmcshelptutorial.tk` with your domain (your new IP) you registered on [https://freenom.com/](https://freenom.com/).
 
-![Cloudflare 2](../_images/custom-ip/Cloudflare-2.png 'Type your domain')
+![Cloudflare 2](../assets/custom-ip/Cloudflare-2.png 'Type your domain')
 
 ### Step 9:
 
 Choose the `Free` plan and click `Confirm Plan` button.
 
-![Cloudflare 3](../_images/custom-ip/Cloudflare-3.png 'Choose the Free plan')
+![Cloudflare 3](../assets/custom-ip/Cloudflare-3.png 'Choose the Free plan')
 
 ### Step 10: 
 
 This is where you will link your domain to your minecraft server.
 
-![Cloudflare 4](../_images/custom-ip/Cloudflare-4.png)
+![Cloudflare 4](../assets/custom-ip/Cloudflare-4.png)
 
 ### Step 11:
 
 Change `A` to `SRV` Record
 
-![Cloudflare 5](../_images/custom-ip/Cloudflare-5.png 'Choose SRV Record')
+![Cloudflare 5](../assets/custom-ip/Cloudflare-5.png 'Choose SRV Record')
 
 ### Step 12:
 
@@ -129,64 +129,64 @@ If you want to use **yourdomain.com**, **play.yourdomain.com** as well as / or *
 
 Click the `Save` button to continue.
 
-![Cloudflare 6](../_images/custom-ip/Cloudflare-6.png 'Create SRV Record')
+![Cloudflare 6](../assets/custom-ip/Cloudflare-6.png 'Create SRV Record')
 
 ### Step 13:
 
 Set the **priority** to `0` and the **weight** to `5` and continue to the next step without saving.
 
-![Cloudflare 7](../_images/custom-ip/Cloudflare-7.png)
+![Cloudflare 7](../assets/custom-ip/Cloudflare-7.png)
 
 ### Step 14:
 
 Copy the Node DNS IP from your minecraft server and PORT and paste them in the correct area and click the `Save` button.
 
-![Cloudflare 8](../_images/custom-ip/Cloudflare-8.png 'Copy and paste IP and PORT')
+![Cloudflare 8](../assets/custom-ip/Cloudflare-8.png 'Copy and paste IP and PORT')
 
 ### Step 15:
 
 Click the `Add Record` button and you will see it appear in the list below.
 
-![Cloudflare 9](../_images/custom-ip/Cloudflare-9.png)
-![Cloudflare 10](../_images/custom-ip/Cloudflare-10.png)
+![Cloudflare 9](../assets/custom-ip/Cloudflare-9.png)
+![Cloudflare 10](../assets/custom-ip/Cloudflare-10.png)
 
 ### Step 16:
 
 After adding the SRV record and checking if everything is correct, click the `Continue` button.
 
-![Cloudflare 11](../_images/custom-ip/Cloudflare-11.png)
+![Cloudflare 11](../assets/custom-ip/Cloudflare-11.png)
 
 ### Step 17:
 
 Go back to the Freenom site and click the `Manage Domain` button. *If you closed it, don't worry! Go to [https://my.freenom.com/clientarea.php?action=domains](https://my.freenom.com/clientarea.php?action=domains)*.
 
-![Freenom 5](../_images/custom-ip/Freenom-5.png 'Managing your domain')
+![Freenom 5](../assets/custom-ip/Freenom-5.png 'Managing your domain')
 
 ### Step 18:
 
 Click on `Management Tools` and then `Nameservers`.
 
-![Freenom 6](../_images/custom-ip/Freenom-6.png 'Adding custom Nameservers')
+![Freenom 6](../assets/custom-ip/Freenom-6.png 'Adding custom Nameservers')
 
 ### Step 19:
 
 Choose `use custom nameservers` on the Freenom site, copy over Nameserver 1 from Cloudflare to Freenom and do the same for Nameserver 2. Leave the other Nameservers blank, click the `Change Nameservers` button on the Freenom site, then click the `Done, check nameservers` button on the Cloudflare site.
 
-![Cloudflare & Freenom 1](../_images/custom-ip/Cloudflare-Freenom-1.png 'Copying Nameservers to Freenom')
+![Cloudflare & Freenom 1](../assets/custom-ip/Cloudflare-Freenom-1.png 'Copying Nameservers to Freenom')
 
 ### Step 20:
 
 Click the `Re-check now` button and wait at least an hour.
 
-![Cloudflare 12](../_images/custom-ip/Cloudflare-12.png 'Re-check Now')
+![Cloudflare 12](../assets/custom-ip/Cloudflare-12.png 'Re-check Now')
 
 ### Step 21:
 
 Refresh your page and you will see the following. You might now be able to use your new IP.
 
-![Cloudflare 13](../_images/custom-ip/Cloudflare-13.png 'Complete')
+![Cloudflare 13](../assets/custom-ip/Cloudflare-13.png 'Complete')
 
 If you would like to check if your IP works. Go to [https://mcsrvstat.us/](https://mcsrvstat.us/) and type in your IP and click the  `Get server status` button. Click `Show debug info` for info on the hostname, IP, and port. 
 
-![Minecraft Server Status 1](../_images/custom-ip/Minecraft-Server-Status-1.png 'Get Server Status')
-![Minecraft Server Status 2](../_images/custom-ip/Minecraft-Server-Status-2.png 'Show Debug Info')
+![Minecraft Server Status 1](../assets/custom-ip/Minecraft-Server-Status-1.png 'Get Server Status')
+![Minecraft Server Status 2](../assets/custom-ip/Minecraft-Server-Status-2.png 'Show Debug Info')
