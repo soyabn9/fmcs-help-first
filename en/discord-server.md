@@ -14,7 +14,7 @@ These rules have to be followed by every member. Members have a limit of 3 warni
 
 4. Be respectful to anyone and everyone in the server - 1 Warning + Any Mute or Ban \(depends how disrespectful you are/were\)
 
-5. Respect the channel language. English is the default language. There are different channel languages \(connect your account [here](https://freemcserver.net/panel/user/account) to access the other channels\) - 1 Warning
+5. The Discord is strictly English only - 1 Warning
 
 6. Empty names are **NOT** allowed (special characters so your names is invisible) - Banned unless changed when asked
 
