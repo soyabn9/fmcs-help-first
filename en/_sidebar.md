@@ -15,10 +15,6 @@
   - [Bedrock FAQ](en/bedrock-faq.md)
   - [Nukkit Plugin FAQ](en/nukkit-plugin-faq.md)
 
-- Site Builder
-
-  - [Site Builder FAQ](en/site-builder-faq.md)
-
 - Discord Server
 
   - [Discord Server](en/discord-server.md)
