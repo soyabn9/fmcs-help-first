@@ -109,7 +109,7 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 
 **Password Error:**
 
-The password cannot have a space before and/or after the password or it will return the following error. Try pasting it in a text editor before you enter it into your FTP client.
+The password cannot have a space before and/or after the password or it will return the following error. Try pasting it in a text editor like [this](https://soyabn9.github.io/fmcs-whitespace/) before you enter it into your FTP client.
 ![FTP Error 1](../assets/fmcs-help-faq/FTP-Error-1.png 'Remove spaces from password')
 
 **Connect Error:**
