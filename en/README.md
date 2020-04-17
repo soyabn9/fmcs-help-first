@@ -12,7 +12,7 @@ You might not have an adblocker (or you do, double check), but something is bloc
 
 ## Is the server free forever?
 
-Yes, You are able to get the server for free.
+Yes, the server is free forever and you will keep your server as long as you renew it.
 
 ## What are the server types?
 
@@ -83,7 +83,7 @@ Yes, you need to fill everything. But I don't have a phone number for telegram o
 
 ## My time keeps messing up and shows the wrong time?
 
-Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Nothing to worry about as your not getting scammed or anything. The server still follows the plan you have, its just the countdown is broken.
+Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Nothing to worry about as your not getting scammed. The server still follows the plan you have. The countdown is broken (We are working on a fix for it).
 
 ## How to get and use the recommended FTP client?
 
@@ -94,8 +94,8 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 
 3. Find the following: 
 
-  - FTP Server IP: helios.freemcserver.net
-  - FTP Server PORT: 21 (Not needed as FileZilla uses port 21 as default)
+  - FTP Server IP: xxxxxx.freemcserver.net
+  - FTP Server PORT: 21 (Not needed as FTP uses port 21 as default)
   - FTP Username: example@domain.com.156366 (Number is different for every server)
   - FTP Password: RandomlyGeneratedNumbersAndLetters
   
@@ -109,8 +109,7 @@ Yes, the staff at the freemcserver.net discord know this as a just a UI bug. Not
 
 **Password Error:**
 
-The password cannot have a space before and/or after the password or it will return the following error.
-
+The password cannot have a space before and/or after the password or it will return the following error. Try pasting it in a text editor before you enter it into your FTP client.
 ![FTP Error 1](../assets/fmcs-help-faq/FTP-Error-1.png 'Remove spaces from password')
 
 **Connect Error:**
@@ -124,7 +123,7 @@ The server cannot be expired or suspended or it will return the following error.
 
 ## How can I upload a world?
 
-To upload a world, drag the world folder from where it is located on your local files area to the server files area you see when using Filezilla. A guide on how to get and use it is [here](en/#how-to-get-and-use-the-recommended-ftp-client.md). The last step is to choose the world to be used by renaming the world textbox under Service Information on the home page of the control panel to the world folder uploaded and then restart the server. A video on how to upload your world to your server is [here](https://youtu.be/OxsWxDtcXkg).
+To upload a world, drag the world folder from where it is located on your local files area to the server files area you see when using FileZilla. A guide on how to get and use it is [here](en/#how-to-get-and-use-the-recommended-ftp-client.md). The last step is to choose the world to be used by renaming the world textbox under Service Information on the home page of the control panel to the world folder uploaded and then restart the server. A video on how to upload your world to your server is [here](https://youtu.be/OxsWxDtcXkg).
 
 ## How can I upload a plugin?
 
